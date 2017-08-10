@@ -1,0 +1,6 @@
+platform :ios, '8.0'
+use_frameworks! #个别需要用到它，比如reactiveCocoa
+
+target 'TimerDemo02' do
+      pod 'SnapKit', '~> 3.2.0'  
+end
