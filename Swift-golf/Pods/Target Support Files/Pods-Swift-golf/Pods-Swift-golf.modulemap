@@ -1,0 +1,6 @@
+framework module Pods_Swift_golf {
+  umbrella header "Pods-Swift-golf-umbrella.h"
+
+  export *
+  module * { export * }
+}

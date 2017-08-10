@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C0A16901E64248700AA182C /* HoleInOneUserPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0A168F1E64248700AA182C /* HoleInOneUserPoint.swift */; };
+		1C0A16921E6424A700AA182C /* PointUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0A16911E6424A700AA182C /* PointUser.swift */; };
+		1C0A16951E642D4C00AA182C /* CommonHoleRankCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C0A16931E642D4C00AA182C /* CommonHoleRankCell.swift */; };
+		1C0A16961E642D4C00AA182C /* CommonHoleRankCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C0A16941E642D4C00AA182C /* CommonHoleRankCell.xib */; };
+		1C10AE271E5409DE009D4F45 /* HoleInOneStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C10AE261E5409DE009D4F45 /* HoleInOneStore.swift */; };
+		1C10AE2B1E5441EC009D4F45 /* CommonNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C10AE2A1E5441EC009D4F45 /* CommonNavigationController.swift */; };
+		1C10AE2D1E544A46009D4F45 /* ExampleProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C10AE2C1E544A46009D4F45 /* ExampleProvider.swift */; };
+		1C1410421E5D301A008FDF9E /* RankMarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1410411E5D301A008FDF9E /* RankMarkView.swift */; };
+		1C164F941E556AD20034A363 /* ExampleAnimateTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C164F881E556AD20034A363 /* ExampleAnimateTipsContentView.swift */; };
+		1C164F951E556AD20034A363 /* ExampleBackgroundContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C164F891E556AD20034A363 /* ExampleBackgroundContentView.swift */; };
+		1C164F961E556AD20034A363 /* ExampleBasicContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C164F8A1E556AD20034A363 /* ExampleBasicContentView.swift */; };
+		1C164F971E556AD20034A363 /* ExampleBouncesContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C164F8B1E556AD20034A363 /* ExampleBouncesContentView.swift */; };
+		1C164F981E556AD20034A363 /* ExampleHighlightableContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C164F8C1E556AD20034A363 /* ExampleHighlightableContentView.swift */; };
+		1C164F9A1E556AD20034A363 /* ExampleTipsContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C164F8E1E556AD20034A363 /* ExampleTipsContentView.swift */; };
+		1C164FA31E559FCF0034A363 /* ContentBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C164FA21E559FCF0034A363 /* ContentBlock.swift */; };
+		1C164FA51E55A0B20034A363 /* ContentBlockItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C164FA41E55A0B20034A363 /* ContentBlockItem.swift */; };
+		1C1798F31E5A8BDE0009676A /* HoleInOneCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1798F21E5A8BDE0009676A /* HoleInOneCategoryView.swift */; };
+		1C1798F61E5ACD360009676A /* CommonCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1798F41E5ACD360009676A /* CommonCollectionCell.swift */; };
+		1C1798F71E5ACD360009676A /* CommonCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C1798F51E5ACD360009676A /* CommonCollectionCell.xib */; };
+		1C17FEAA1E247B1500CC10F9 /* DailyGolfTabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C17FEA91E247B1500CC10F9 /* DailyGolfTabbar.swift */; };
+		1C1872D41E2379CA00BDF95F /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1872D31E2379CA00BDF95F /* Constant.swift */; };
+		1C1AE0551E56CE7800E8885B /* golf_default_place_holder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1C1AE0541E56CE7800E8885B /* golf_default_place_holder.jpg */; };
+		1C2828A91B4A3659009062B8 /* ViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2828A81B4A3659009062B8 /* ViewControllerExt.swift */; };
+		1C2A2B701E237C8900E3D394 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A2B6E1E237C8900E3D394 /* HeaderView.swift */; };
+		1C2A2B711E237C8900E3D394 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C2A2B6F1E237C8900E3D394 /* HeaderView.xib */; };
+		1C2A2B7C1E23920800E3D394 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A2B7B1E23920800E3D394 /* NewsViewController.swift */; };
+		1C2A2B7E1E23921800E3D394 /* PrivateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A2B7D1E23921800E3D394 /* PrivateViewController.swift */; };
+		1C2A2B801E23922800E3D394 /* UserCenterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A2B7F1E23922800E3D394 /* UserCenterViewController.swift */; };
+		1C2A2B821E23924000E3D394 /* HoleInOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2A2B811E23924000E3D394 /* HoleInOneController.swift */; };
+		1C9E077F1B4A61B400046A6A /* HttpRequestFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C9E077E1B4A61B400046A6A /* HttpRequestFacade.swift */; };
+		1CAF1F681B41193A00943163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF1F671B41193A00943163 /* AppDelegate.swift */; };
+		1CAF1F6B1B41193A00943163 /* Swift_golf.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF1F691B41193A00943163 /* Swift_golf.xcdatamodeld */; };
+		1CAF1F6D1B41193B00943163 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF1F6C1B41193B00943163 /* MainViewController.swift */; };
+		1CAF1F701B41193B00943163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF1F6E1B41193B00943163 /* Main.storyboard */; };
+		1CAF1F721B41193B00943163 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF1F711B41193B00943163 /* Images.xcassets */; };
+		1CAF1F751B41193B00943163 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CAF1F731B41193B00943163 /* LaunchScreen.xib */; };
+		1CAF1F811B41193B00943163 /* Swift_golfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF1F801B41193B00943163 /* Swift_golfTests.swift */; };
+		1CAF1FE11B4138BB00943163 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAF1FE01B4138BB00943163 /* BaseViewController.swift */; };
+		1CCBF15B1B8AD07F009CDE45 /* AppStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCBF15A1B8AD07F009CDE45 /* AppStatus.swift */; };
+		1CCBF15D1B8AEAE6009CDE45 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCBF15C1B8AEAE6009CDE45 /* User.swift */; };
+		1CCBF15F1B8AF5A7009CDE45 /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCBF15E1B8AF5A7009CDE45 /* UserStore.swift */; };
+		2C410C4057B80E4C2CEFA95B /* Pods_Swift_golf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD39DDC85C0BBB91672003DC /* Pods_Swift_golf.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1CAF1F7B1B41193B00943163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1CAF1F5A1B41193A00943163 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1CAF1F611B41193A00943163;
+			remoteInfo = "Swift-golf";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08B61DCEFB0DB31AA32BAF03 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0A168F1E64248700AA182C /* HoleInOneUserPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoleInOneUserPoint.swift; sourceTree = "<group>"; };
+		1C0A16911E6424A700AA182C /* PointUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointUser.swift; sourceTree = "<group>"; };
+		1C0A16931E642D4C00AA182C /* CommonHoleRankCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonHoleRankCell.swift; sourceTree = "<group>"; };
+		1C0A16941E642D4C00AA182C /* CommonHoleRankCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonHoleRankCell.xib; sourceTree = "<group>"; };
+		1C10AE261E5409DE009D4F45 /* HoleInOneStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HoleInOneStore.swift; path = store/HoleInOneStore.swift; sourceTree = "<group>"; };
+		1C10AE2A1E5441EC009D4F45 /* CommonNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonNavigationController.swift; sourceTree = "<group>"; };
+		1C10AE2C1E544A46009D4F45 /* ExampleProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleProvider.swift; sourceTree = "<group>"; };
+		1C1410411E5D301A008FDF9E /* RankMarkView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RankMarkView.swift; sourceTree = "<group>"; };
+		1C164F881E556AD20034A363 /* ExampleAnimateTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleAnimateTipsContentView.swift; sourceTree = "<group>"; };
+		1C164F891E556AD20034A363 /* ExampleBackgroundContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBackgroundContentView.swift; sourceTree = "<group>"; };
+		1C164F8A1E556AD20034A363 /* ExampleBasicContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBasicContentView.swift; sourceTree = "<group>"; };
+		1C164F8B1E556AD20034A363 /* ExampleBouncesContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleBouncesContentView.swift; sourceTree = "<group>"; };
+		1C164F8C1E556AD20034A363 /* ExampleHighlightableContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleHighlightableContentView.swift; sourceTree = "<group>"; };
+		1C164F8E1E556AD20034A363 /* ExampleTipsContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleTipsContentView.swift; sourceTree = "<group>"; };
+		1C164FA21E559FCF0034A363 /* ContentBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBlock.swift; sourceTree = "<group>"; };
+		1C164FA41E55A0B20034A363 /* ContentBlockItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentBlockItem.swift; sourceTree = "<group>"; };
+		1C1798F21E5A8BDE0009676A /* HoleInOneCategoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoleInOneCategoryView.swift; sourceTree = "<group>"; };
+		1C1798F41E5ACD360009676A /* CommonCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonCollectionCell.swift; sourceTree = "<group>"; };
+		1C1798F51E5ACD360009676A /* CommonCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommonCollectionCell.xib; sourceTree = "<group>"; };
+		1C17FEA91E247B1500CC10F9 /* DailyGolfTabbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyGolfTabbar.swift; sourceTree = "<group>"; };
+		1C1872D31E2379CA00BDF95F /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		1C1AE0541E56CE7800E8885B /* golf_default_place_holder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = golf_default_place_holder.jpg; sourceTree = "<group>"; };
+		1C28287B1B4A184C009062B8 /* Swift-golf-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-golf-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		1C2828A81B4A3659009062B8 /* ViewControllerExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewControllerExt.swift; path = category/ViewControllerExt.swift; sourceTree = "<group>"; };
+		1C2A2B6E1E237C8900E3D394 /* HeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		1C2A2B6F1E237C8900E3D394 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		1C2A2B7B1E23920800E3D394 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		1C2A2B7D1E23921800E3D394 /* PrivateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateViewController.swift; sourceTree = "<group>"; };
+		1C2A2B7F1E23922800E3D394 /* UserCenterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserCenterViewController.swift; sourceTree = "<group>"; };
+		1C2A2B811E23924000E3D394 /* HoleInOneController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoleInOneController.swift; sourceTree = "<group>"; };
+		1C9E077E1B4A61B400046A6A /* HttpRequestFacade.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HttpRequestFacade.swift; path = store/HttpRequestFacade.swift; sourceTree = "<group>"; };
+		1CAF1F621B41193A00943163 /* Swift-golf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-golf.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAF1F661B41193A00943163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAF1F671B41193A00943163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = "Swift-golf/AppDelegate.swift"; sourceTree = "<group>"; };
+		1CAF1F6A1B41193A00943163 /* Swift_golf.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Swift_golf.xcdatamodel; sourceTree = "<group>"; };
+		1CAF1F6C1B41193B00943163 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1CAF1F6F1B41193B00943163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1CAF1F711B41193B00943163 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		1CAF1F741B41193B00943163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		1CAF1F7A1B41193B00943163 /* Swift-golfTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-golfTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1CAF1F7F1B41193B00943163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CAF1F801B41193B00943163 /* Swift_golfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_golfTests.swift; sourceTree = "<group>"; };
+		1CAF1FE01B4138BB00943163 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		1CCBF15A1B8AD07F009CDE45 /* AppStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStatus.swift; sourceTree = "<group>"; };
+		1CCBF15C1B8AEAE6009CDE45 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		1CCBF15E1B8AF5A7009CDE45 /* UserStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserStore.swift; path = store/UserStore.swift; sourceTree = "<group>"; };
+		DD39DDC85C0BBB91672003DC /* Pods_Swift_golf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_golf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E51191E0CFE3356E7E278D36 /* Pods-Swift-golf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-golf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-golf/Pods-Swift-golf.debug.xcconfig"; sourceTree = "<group>"; };
+		ECBFF43BC0FD516A2D8291B3 /* Pods-Swift-golf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-golf.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-golf/Pods-Swift-golf.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CAF1F5F1B41193A00943163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C410C4057B80E4C2CEFA95B /* Pods_Swift_golf.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAF1F771B41193B00943163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C164F871E556AD20034A363 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				1C164F881E556AD20034A363 /* ExampleAnimateTipsContentView.swift */,
+				1C164F891E556AD20034A363 /* ExampleBackgroundContentView.swift */,
+				1C164F8A1E556AD20034A363 /* ExampleBasicContentView.swift */,
+				1C164F8B1E556AD20034A363 /* ExampleBouncesContentView.swift */,
+				1C164F8C1E556AD20034A363 /* ExampleHighlightableContentView.swift */,
+				1C164F8E1E556AD20034A363 /* ExampleTipsContentView.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+		1C164FA11E559F430034A363 /* holeinone */ = {
+			isa = PBXGroup;
+			children = (
+				1C164FA21E559FCF0034A363 /* ContentBlock.swift */,
+				1C164FA41E55A0B20034A363 /* ContentBlockItem.swift */,
+				1C0A168F1E64248700AA182C /* HoleInOneUserPoint.swift */,
+				1C0A16911E6424A700AA182C /* PointUser.swift */,
+			);
+			name = holeinone;
+			path = domain/holeinone;
+			sourceTree = "<group>";
+		};
+		1C1872D21E2379CA00BDF95F /* common */ = {
+			isa = PBXGroup;
+			children = (
+				1C1872D31E2379CA00BDF95F /* Constant.swift */,
+			);
+			name = common;
+			path = domain/common;
+			sourceTree = "<group>";
+		};
+		1C1AE0531E56CE7800E8885B /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				1C1AE0541E56CE7800E8885B /* golf_default_place_holder.jpg */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		1C2828A71B4A345E009062B8 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				1C2828A81B4A3659009062B8 /* ViewControllerExt.swift */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
+		1C2A2B6D1E237C8900E3D394 /* commonView */ = {
+			isa = PBXGroup;
+			children = (
+				1C164F871E556AD20034A363 /* Content */,
+				1C4C93041E274AFD006F5E3F /* tabbar */,
+				1C2A2B6E1E237C8900E3D394 /* HeaderView.swift */,
+				1C2A2B6F1E237C8900E3D394 /* HeaderView.xib */,
+				1C17FEA91E247B1500CC10F9 /* DailyGolfTabbar.swift */,
+			);
+			name = commonView;
+			path = ui/commonView;
+			sourceTree = "<group>";
+		};
+		1C2A2B771E2391F100E3D394 /* match */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A2B811E23924000E3D394 /* HoleInOneController.swift */,
+				1C0A16931E642D4C00AA182C /* CommonHoleRankCell.swift */,
+				1C0A16941E642D4C00AA182C /* CommonHoleRankCell.xib */,
+				1C1798F21E5A8BDE0009676A /* HoleInOneCategoryView.swift */,
+				1C1410411E5D301A008FDF9E /* RankMarkView.swift */,
+				1C1798F41E5ACD360009676A /* CommonCollectionCell.swift */,
+				1C1798F51E5ACD360009676A /* CommonCollectionCell.xib */,
+			);
+			name = match;
+			path = ui/match;
+			sourceTree = "<group>";
+		};
+		1C2A2B781E2391F100E3D394 /* news */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A2B7B1E23920800E3D394 /* NewsViewController.swift */,
+			);
+			name = news;
+			path = ui/news;
+			sourceTree = "<group>";
+		};
+		1C2A2B791E2391F100E3D394 /* private */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A2B7D1E23921800E3D394 /* PrivateViewController.swift */,
+			);
+			name = private;
+			path = ui/private;
+			sourceTree = "<group>";
+		};
+		1C2A2B7A1E2391F100E3D394 /* user */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A2B7F1E23922800E3D394 /* UserCenterViewController.swift */,
+			);
+			name = user;
+			path = ui/user;
+			sourceTree = "<group>";
+		};
+		1C4C93041E274AFD006F5E3F /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				1C10AE2C1E544A46009D4F45 /* ExampleProvider.swift */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
+		1CAF1F591B41193A00943163 = {
+			isa = PBXGroup;
+			children = (
+				1CAF1F671B41193A00943163 /* AppDelegate.swift */,
+				1CAF1F641B41193A00943163 /* Swift-golf */,
+				1CAF1F7D1B41193B00943163 /* Swift-golfTests */,
+				1CAF1F631B41193A00943163 /* Products */,
+				32AB563922B8B515544ABACB /* Frameworks */,
+				715CA3E4D83491841C6201D1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		1CAF1F631B41193A00943163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1CAF1F621B41193A00943163 /* Swift-golf.app */,
+				1CAF1F7A1B41193B00943163 /* Swift-golfTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1CAF1F641B41193A00943163 /* Swift-golf */ = {
+			isa = PBXGroup;
+			children = (
+				1C1AE0531E56CE7800E8885B /* resources */,
+				1C2828A71B4A345E009062B8 /* category */,
+				1CAF1FC41B412A3400943163 /* util */,
+				1CAF1F8D1B411A1400943163 /* store */,
+				1CAF1F8C1B411A0B00943163 /* domain */,
+				1CAF1F8B1B4119EF00943163 /* ui */,
+				1CAF1F8E1B411A2100943163 /* third */,
+				1CAF1F6C1B41193B00943163 /* MainViewController.swift */,
+				1C28287B1B4A184C009062B8 /* Swift-golf-Bridging-Header.h */,
+				1CAF1F6E1B41193B00943163 /* Main.storyboard */,
+				1CAF1F711B41193B00943163 /* Images.xcassets */,
+				1CAF1F731B41193B00943163 /* LaunchScreen.xib */,
+				1CAF1F691B41193A00943163 /* Swift_golf.xcdatamodeld */,
+				1CAF1F651B41193A00943163 /* Supporting Files */,
+			);
+			path = "Swift-golf";
+			sourceTree = "<group>";
+		};
+		1CAF1F651B41193A00943163 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CAF1F661B41193A00943163 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CAF1F7D1B41193B00943163 /* Swift-golfTests */ = {
+			isa = PBXGroup;
+			children = (
+				1CAF1F801B41193B00943163 /* Swift_golfTests.swift */,
+				1CAF1F7E1B41193B00943163 /* Supporting Files */,
+			);
+			path = "Swift-golfTests";
+			sourceTree = "<group>";
+		};
+		1CAF1F7E1B41193B00943163 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1CAF1F7F1B41193B00943163 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1CAF1F8B1B4119EF00943163 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				1C2A2B771E2391F100E3D394 /* match */,
+				1C2A2B781E2391F100E3D394 /* news */,
+				1C2A2B791E2391F100E3D394 /* private */,
+				1C2A2B7A1E2391F100E3D394 /* user */,
+				1C2A2B6D1E237C8900E3D394 /* commonView */,
+				1CAF1FDF1B4138A500943163 /* baseVC */,
+			);
+			name = ui;
+			sourceTree = "<group>";
+		};
+		1CAF1F8C1B411A0B00943163 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				1C164FA11E559F430034A363 /* holeinone */,
+				1C1872D21E2379CA00BDF95F /* common */,
+				1CCBF1591B8AB749009CDE45 /* system */,
+			);
+			name = domain;
+			sourceTree = "<group>";
+		};
+		1CAF1F8D1B411A1400943163 /* store */ = {
+			isa = PBXGroup;
+			children = (
+				1C9E077E1B4A61B400046A6A /* HttpRequestFacade.swift */,
+				1C10AE261E5409DE009D4F45 /* HoleInOneStore.swift */,
+				1CCBF15E1B8AF5A7009CDE45 /* UserStore.swift */,
+			);
+			name = store;
+			sourceTree = "<group>";
+		};
+		1CAF1F8E1B411A2100943163 /* third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = third;
+			sourceTree = "<group>";
+		};
+		1CAF1FC41B412A3400943163 /* util */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		1CAF1FDF1B4138A500943163 /* baseVC */ = {
+			isa = PBXGroup;
+			children = (
+				1CAF1FE01B4138BB00943163 /* BaseViewController.swift */,
+				1C10AE2A1E5441EC009D4F45 /* CommonNavigationController.swift */,
+			);
+			name = baseVC;
+			path = ui/baseVC;
+			sourceTree = "<group>";
+		};
+		1CCBF1591B8AB749009CDE45 /* system */ = {
+			isa = PBXGroup;
+			children = (
+				1CCBF15A1B8AD07F009CDE45 /* AppStatus.swift */,
+				1CCBF15C1B8AEAE6009CDE45 /* User.swift */,
+			);
+			name = system;
+			path = domain/system;
+			sourceTree = "<group>";
+		};
+		32AB563922B8B515544ABACB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08B61DCEFB0DB31AA32BAF03 /* Pods.framework */,
+				DD39DDC85C0BBB91672003DC /* Pods_Swift_golf.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		715CA3E4D83491841C6201D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E51191E0CFE3356E7E278D36 /* Pods-Swift-golf.debug.xcconfig */,
+				ECBFF43BC0FD516A2D8291B3 /* Pods-Swift-golf.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1CAF1F611B41193A00943163 /* Swift-golf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAF1F841B41193B00943163 /* Build configuration list for PBXNativeTarget "Swift-golf" */;
+			buildPhases = (
+				74BA9E750C61D52220870F8D /* [CP] Check Pods Manifest.lock */,
+				1CAF1F5E1B41193A00943163 /* Sources */,
+				1CAF1F5F1B41193A00943163 /* Frameworks */,
+				1CAF1F601B41193A00943163 /* Resources */,
+				CA775DC32F7A5FA53678A65D /* [CP] Embed Pods Frameworks */,
+				8B05026EAFF5FFBEFA3550F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-golf";
+			productName = "Swift-golf";
+			productReference = 1CAF1F621B41193A00943163 /* Swift-golf.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1CAF1F791B41193B00943163 /* Swift-golfTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1CAF1F871B41193B00943163 /* Build configuration list for PBXNativeTarget "Swift-golfTests" */;
+			buildPhases = (
+				1CAF1F761B41193B00943163 /* Sources */,
+				1CAF1F771B41193B00943163 /* Frameworks */,
+				1CAF1F781B41193B00943163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CAF1F7C1B41193B00943163 /* PBXTargetDependency */,
+			);
+			name = "Swift-golfTests";
+			productName = "Swift-golfTests";
+			productReference = 1CAF1F7A1B41193B00943163 /* Swift-golfTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1CAF1F5A1B41193A00943163 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftMigration = 0710;
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = xubojoy;
+				TargetAttributes = {
+					1CAF1F611B41193A00943163 = {
+						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = 475AM2DC65;
+						LastSwiftMigration = 0810;
+					};
+					1CAF1F791B41193B00943163 = {
+						CreatedOnToolsVersion = 6.3.2;
+						LastSwiftMigration = 0810;
+						TestTargetID = 1CAF1F611B41193A00943163;
+					};
+				};
+			};
+			buildConfigurationList = 1CAF1F5D1B41193A00943163 /* Build configuration list for PBXProject "Swift-golf" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1CAF1F591B41193A00943163;
+			productRefGroup = 1CAF1F631B41193A00943163 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1CAF1F611B41193A00943163 /* Swift-golf */,
+				1CAF1F791B41193B00943163 /* Swift-golfTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1CAF1F601B41193A00943163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAF1F701B41193B00943163 /* Main.storyboard in Resources */,
+				1C1AE0551E56CE7800E8885B /* golf_default_place_holder.jpg in Resources */,
+				1CAF1F751B41193B00943163 /* LaunchScreen.xib in Resources */,
+				1CAF1F721B41193B00943163 /* Images.xcassets in Resources */,
+				1C0A16961E642D4C00AA182C /* CommonHoleRankCell.xib in Resources */,
+				1C1798F71E5ACD360009676A /* CommonCollectionCell.xib in Resources */,
+				1C2A2B711E237C8900E3D394 /* HeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAF1F781B41193B00943163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		74BA9E750C61D52220870F8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8B05026EAFF5FFBEFA3550F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift-golf/Pods-Swift-golf-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA775DC32F7A5FA53678A65D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift-golf/Pods-Swift-golf-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1CAF1F5E1B41193A00943163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CCBF15B1B8AD07F009CDE45 /* AppStatus.swift in Sources */,
+				1C1872D41E2379CA00BDF95F /* Constant.swift in Sources */,
+				1C0A16901E64248700AA182C /* HoleInOneUserPoint.swift in Sources */,
+				1CCBF15D1B8AEAE6009CDE45 /* User.swift in Sources */,
+				1C2A2B7C1E23920800E3D394 /* NewsViewController.swift in Sources */,
+				1C164F9A1E556AD20034A363 /* ExampleTipsContentView.swift in Sources */,
+				1C1410421E5D301A008FDF9E /* RankMarkView.swift in Sources */,
+				1C164FA51E55A0B20034A363 /* ContentBlockItem.swift in Sources */,
+				1CAF1FE11B4138BB00943163 /* BaseViewController.swift in Sources */,
+				1C164F951E556AD20034A363 /* ExampleBackgroundContentView.swift in Sources */,
+				1C2A2B821E23924000E3D394 /* HoleInOneController.swift in Sources */,
+				1C10AE2B1E5441EC009D4F45 /* CommonNavigationController.swift in Sources */,
+				1C164F941E556AD20034A363 /* ExampleAnimateTipsContentView.swift in Sources */,
+				1CAF1F6D1B41193B00943163 /* MainViewController.swift in Sources */,
+				1C164FA31E559FCF0034A363 /* ContentBlock.swift in Sources */,
+				1C17FEAA1E247B1500CC10F9 /* DailyGolfTabbar.swift in Sources */,
+				1C10AE271E5409DE009D4F45 /* HoleInOneStore.swift in Sources */,
+				1C9E077F1B4A61B400046A6A /* HttpRequestFacade.swift in Sources */,
+				1C1798F61E5ACD360009676A /* CommonCollectionCell.swift in Sources */,
+				1C0A16921E6424A700AA182C /* PointUser.swift in Sources */,
+				1C0A16951E642D4C00AA182C /* CommonHoleRankCell.swift in Sources */,
+				1C1798F31E5A8BDE0009676A /* HoleInOneCategoryView.swift in Sources */,
+				1CCBF15F1B8AF5A7009CDE45 /* UserStore.swift in Sources */,
+				1C164F981E556AD20034A363 /* ExampleHighlightableContentView.swift in Sources */,
+				1C2A2B701E237C8900E3D394 /* HeaderView.swift in Sources */,
+				1CAF1F681B41193A00943163 /* AppDelegate.swift in Sources */,
+				1C164F971E556AD20034A363 /* ExampleBouncesContentView.swift in Sources */,
+				1C10AE2D1E544A46009D4F45 /* ExampleProvider.swift in Sources */,
+				1C2A2B801E23922800E3D394 /* UserCenterViewController.swift in Sources */,
+				1CAF1F6B1B41193A00943163 /* Swift_golf.xcdatamodeld in Sources */,
+				1C2A2B7E1E23921800E3D394 /* PrivateViewController.swift in Sources */,
+				1C164F961E556AD20034A363 /* ExampleBasicContentView.swift in Sources */,
+				1C2828A91B4A3659009062B8 /* ViewControllerExt.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CAF1F761B41193B00943163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAF1F811B41193B00943163 /* Swift_golfTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CAF1F7C1B41193B00943163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1CAF1F611B41193A00943163 /* Swift-golf */;
+			targetProxy = 1CAF1F7B1B41193B00943163 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1CAF1F6E1B41193B00943163 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CAF1F6F1B41193B00943163 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1CAF1F731B41193B00943163 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1CAF1F741B41193B00943163 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1CAF1F821B41193B00943163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1CAF1F831B41193B00943163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1CAF1F851B41193B00943163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E51191E0CFE3356E7E278D36 /* Pods-Swift-golf.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Swift-golf/ui/commonView/Lottie",
+					"$(PROJECT_DIR)/Swift-golf/Frameworks",
+				);
+				INFOPLIST_FILE = "Swift-golf/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.golfd.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-golf-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1CAF1F861B41193B00943163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECBFF43BC0FD516A2D8291B3 /* Pods-Swift-golf.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Swift-golf/ui/commonView/Lottie",
+					"$(PROJECT_DIR)/Swift-golf/Frameworks",
+				);
+				INFOPLIST_FILE = "Swift-golf/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.golfd.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-golf-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1CAF1F881B41193B00943163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-golfTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.golfd.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-golf.app/Swift-golf";
+			};
+			name = Debug;
+		};
+		1CAF1F891B41193B00943163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Swift-golfTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.golfd.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swift-golf.app/Swift-golf";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1CAF1F5D1B41193A00943163 /* Build configuration list for PBXProject "Swift-golf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAF1F821B41193B00943163 /* Debug */,
+				1CAF1F831B41193B00943163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAF1F841B41193B00943163 /* Build configuration list for PBXNativeTarget "Swift-golf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAF1F851B41193B00943163 /* Debug */,
+				1CAF1F861B41193B00943163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1CAF1F871B41193B00943163 /* Build configuration list for PBXNativeTarget "Swift-golfTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CAF1F881B41193B00943163 /* Debug */,
+				1CAF1F891B41193B00943163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1CAF1F691B41193A00943163 /* Swift_golf.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1CAF1F6A1B41193A00943163 /* Swift_golf.xcdatamodel */,
+			);
+			currentVersion = 1CAF1F6A1B41193A00943163 /* Swift_golf.xcdatamodel */;
+			path = Swift_golf.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1CAF1F5A1B41193A00943163 /* Project object */;
+}

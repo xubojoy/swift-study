@@ -1,0 +1,6 @@
+framework module FNMatchPull {
+  umbrella header "FNMatchPull-umbrella.h"
+
+  export *
+  module * { export * }
+}
